@@ -142,27 +142,28 @@ int main() {
 					printf("%d", (num1 == 1) || (num2 == 20));
 					printf("%d", !(num1 == 5));
 */
-int num1, num2;
-	printf("Sayıyı giriniz:");
-	scanf_s("%d", &num1);
-
-	printf("2. Sayıyı giriniz:");
-	scanf_s("%d", &num2);
-
-	printf("Number 1 = %d\n", num1); // 5
-	printf("Number 2 = %d\n", num2); // 10
-
-	printf("\n");
-	
-	// code
-
-	//int num3 = num1, num4 = num2;
-	int num3;
-	(num3 = num1) && (num1 = num2) && (num2 = num3);
 
 
-	printf("Number 1 = %d\n", num1); // 10
-	printf("Number 2 = %d\n", num2); // 5
+	//int num1, num2;
+	//printf("Sayıyı giriniz: ");
+	//scanf_s("%d", &num1);
+	// 
+	//printf("2. Sayıyı giriniz: ");
+	//scanf_s("%d", &num2);
+
+	//printf("Number 1 = %d\n", num1); // 5
+	//printf("Number 2 = %d\n", num2); // 10
+
+	//printf("\n");
+
+	//int num3;
+
+	//num3 = num1;
+	//num1 = num2;
+	//num2 = num3;
+
+	//printf("Number 1 = %d\n", num1); // 10
+	//printf("Number 2 = %d\n", num2); // 5
 
 
 
