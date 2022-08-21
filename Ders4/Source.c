@@ -116,31 +116,49 @@ int ebob(int num1, int num2) {
 
 */
 
+long long convert(int decimal) {
+	long long bin = 0;
+	int rem, i = 1;
+
+	while (decimal != 0) {
+		rem = decimal % 2;
+		decimal /= 2;
+		bin += rem * i;
+		i *= 10;
+	}
+
+	return bin;
+}
+
 
 int main() {
 	
-	//printf("%d", carp(5, 6));
-	// printf("\n\Ans = %d", isPrime(997));
-	//int ans = ebob(81, 54);
-	//printf("%d", ans);
-	//printf("%d", fact(4));
-	//printf("%d", sum(10));
-	//printf("%d", power(4,4));
-	//printf("%d", reverse(12345));
+	/*printf("%d", carp(5, 6));
+	 printf("\n\Ans = %d", isPrime(997));
+	int ans = ebob(81, 54);
+	printf("%d", ans);
+	printf("%d", fact(4));
+	printf("%d", sum(10));
+	printf("%d", power(4,4));
+	printf("%d", reverse(12345));*/
 
 	/*printf("Enter a sentence: ");
 	reverseSentence();*/
 
-	//int num;
-	//char c;
+	int num;
+	char c;
 
 	//scanf_s("%d", &num); // \n
 	//scanf_s("%c", &c); // A
 
-	//printf("Num = %d\n", num); // 15
-	//printf("Char = %c\n", c); // A
+	printf("Num = %d\n", num); // 15
+	printf("Char = %c\n", c); // A
 
-	//printf("%d in decimal = %lld in binary", 7, convertDecimalToBinary(7));
+	printf("%d in decimal = %lld in binary", 7, convertDecimalToBinary(7));
+
+	printf("%lld", convert(13));
+
+
 
 	return 0;
 }

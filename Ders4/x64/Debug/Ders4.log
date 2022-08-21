@@ -1,3 +1,8 @@
 ﻿  Source.c
+C:\Users\jabru\Desktop\Workspace\Ders4\Source.c(157,46): warning C4013: 'convertDecimalToBinary' undefined; assuming extern returning int
+C:\Users\jabru\Desktop\Workspace\Ders4\Source.c(157,9): warning C4477: 'printf' : format string '%lld' requires an argument of type '__int64', but variadic argument 2 has type 'int'
+C:\Users\jabru\Desktop\Workspace\Ders4\Source.c(157,9): message : consider using '%d' in the format string
+C:\Users\jabru\Desktop\Workspace\Ders4\Source.c(157,9): message : consider using '%I32d' in the format string
 C:\Users\jabru\Desktop\Workspace\Ders4\Source.c(41): warning C4715: 'ebob': not all control paths return a value
-  Ders4.vcxproj -> C:\Users\jabru\Desktop\Workspace\Ders4\x64\Debug\Ders4.exe
+C:\Users\jabru\Desktop\Workspace\Ders4\Source.c(154): error C4700: uninitialized local variable 'num' used
+C:\Users\jabru\Desktop\Workspace\Ders4\Source.c(155): error C4700: uninitialized local variable 'c' used
