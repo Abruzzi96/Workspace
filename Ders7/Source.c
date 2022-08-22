@@ -151,35 +151,34 @@ int main() {
 	
 	*/
 
-	int* ptr;
-	int n, i;
+	//int numberOfElements;
+	//printf("Enter number of elements: ");
 
-	printf("Enter the number of elements : ");
-	scanf_s("%d", &n);
+	//scanf_s("%d", &numberOfElements);
 
-	ptr = (int*)malloc(n * sizeof(int));
+	//int* ptr = (int*)malloc(numberOfElements * sizeof(int));
 
-	if (ptr == NULL) {
-		printf("Memory not allocated.\n");
-		exit(0);
-	}
-	else {
+	//if (ptr == NULL) {
+	//	printf("Unable to allocate memory!");
+	//	exit(0);
+	//} // NullPtrException
 
-		// Memory has been successfully allocated
-		printf("Memory successfully allocated using malloc.\n");
+	//int sum = 0;
+	//for (int i = 0; i < numberOfElements; i++) {
+	//	printf("Enter numbers %d: ",i);
+	//	scanf_s("%d", ptr + i);
+	//	
+	//	sum += *(ptr + i);
+	//}
 
-		for (i = 0; i < n; ++i) {
-			ptr[i] = i + 1;
-		}
-		printf("The elements of the array are: ");
-		for (i = 0; i < n; ++i) {
-			printf("%d, ", ptr[i]);
-		}
-	}
+	//printf("Sum : %d", sum);
 
+	//// memory leak!
 
+	//free(ptr);
 
 
+	
 
 	
 	printf("\n\n\n");
