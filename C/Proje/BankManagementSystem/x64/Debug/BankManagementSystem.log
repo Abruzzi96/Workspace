@@ -1,0 +1,4 @@
+﻿  Source.c
+C:\Users\jabru\Desktop\Workspace\C\Proje\BankManagementSystem\Source.c(207,40): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\jabru\Desktop\Workspace\C\Proje\BankManagementSystem\Source.c(207,40): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  BankManagementSystem.vcxproj -> C:\Users\jabru\Desktop\Workspace\C\Proje\BankManagementSystem\x64\Debug\BankManagementSystem.exe
