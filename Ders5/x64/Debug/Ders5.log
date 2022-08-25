@@ -1,3 +1,0 @@
-﻿  Source.c
-C:\Users\jabru\Desktop\Workspace\Ders5\Source.c(9,16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-  Ders5.vcxproj -> C:\Users\jabru\Desktop\Workspace\Ders5\x64\Debug\Ders5.exe
