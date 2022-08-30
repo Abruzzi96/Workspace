@@ -1,0 +1,12 @@
+# ninja log v5
+0	302	6834977352561229	CMakeFiles/Ders_6.dir/main.cpp.obj	63a14f9bd80bd191
+305	399	6834977353499045	Ders_6.exe	600ace86fb5558b9
+3	326	6834979147110617	CMakeFiles/Ders_6.dir/main.cpp.obj	63a14f9bd80bd191
+7	331	6834979147160490	CMakeFiles/Ders_6.dir/Calculator.cpp.obj	8bfd9262deb03579
+331	429	6834979148127894	Ders_6.exe	d08807af60b7388c
+4	305	6834980120849472	CMakeFiles/Ders_6.dir/main.cpp.obj	63a14f9bd80bd191
+8	308	6834980120879081	CMakeFiles/Ders_6.dir/Calculator.cpp.obj	8bfd9262deb03579
+308	399	6834980121756737	Ders_6.exe	d08807af60b7388c
+3	301	6834982310433263	CMakeFiles/Ders_6.dir/main.cpp.obj	63a14f9bd80bd191
+7	305	6834982310462938	CMakeFiles/Ders_6.dir/Calculator.cpp.obj	8bfd9262deb03579
+305	395	6834982311350556	Ders_6.exe	d08807af60b7388c

@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Ders_6
+# Project: Ders_7
 # Configurations: Debug
 # =============================================================================
 
@@ -39,52 +39,58 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/jabru/Desktop/Workspace/C++/Ders/Ders-6/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/jabru/Desktop/Workspace/C++/Ders/Ders-7/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Ders_6
+# Object build statements for EXECUTABLE target Ders_7
 
 
 #############################################
-# Order-only phony target for Ders_6
+# Order-only phony target for Ders_7
 
-build cmake_object_order_depends_target_Ders_6: phony || CMakeFiles/Ders_6.dir
+build cmake_object_order_depends_target_Ders_7: phony || CMakeFiles/Ders_7.dir
 
-build CMakeFiles/Ders_6.dir/main.cpp.obj: CXX_COMPILER__Ders_6_Debug C$:/Users/jabru/Desktop/Workspace/C++/Ders/Ders-6/main.cpp || cmake_object_order_depends_target_Ders_6
-  DEP_FILE = CMakeFiles\Ders_6.dir\main.cpp.obj.d
+build CMakeFiles/Ders_7.dir/main.cpp.obj: CXX_COMPILER__Ders_7_Debug C$:/Users/jabru/Desktop/Workspace/C++/Ders/Ders-7/main.cpp || cmake_object_order_depends_target_Ders_7
+  DEP_FILE = CMakeFiles\Ders_7.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\Ders_6.dir
-  OBJECT_FILE_DIR = CMakeFiles\Ders_6.dir
+  OBJECT_DIR = CMakeFiles\Ders_7.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ders_7.dir
 
-build CMakeFiles/Ders_6.dir/Calculator.cpp.obj: CXX_COMPILER__Ders_6_Debug C$:/Users/jabru/Desktop/Workspace/C++/Ders/Ders-6/Calculator.cpp || cmake_object_order_depends_target_Ders_6
-  DEP_FILE = CMakeFiles\Ders_6.dir\Calculator.cpp.obj.d
+build CMakeFiles/Ders_7.dir/Entry.cpp.obj: CXX_COMPILER__Ders_7_Debug C$:/Users/jabru/Desktop/Workspace/C++/Ders/Ders-7/Entry.cpp || cmake_object_order_depends_target_Ders_7
+  DEP_FILE = CMakeFiles\Ders_7.dir\Entry.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\Ders_6.dir
-  OBJECT_FILE_DIR = CMakeFiles\Ders_6.dir
+  OBJECT_DIR = CMakeFiles\Ders_7.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ders_7.dir
+
+build CMakeFiles/Ders_7.dir/PhoneList.cpp.obj: CXX_COMPILER__Ders_7_Debug C$:/Users/jabru/Desktop/Workspace/C++/Ders/Ders-7/PhoneList.cpp || cmake_object_order_depends_target_Ders_7
+  DEP_FILE = CMakeFiles\Ders_7.dir\PhoneList.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Ders_7.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ders_7.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Ders_6
+# Link build statements for EXECUTABLE target Ders_7
 
 
 #############################################
-# Link the executable Ders_6.exe
+# Link the executable Ders_7.exe
 
-build Ders_6.exe: CXX_EXECUTABLE_LINKER__Ders_6_Debug CMakeFiles/Ders_6.dir/main.cpp.obj CMakeFiles/Ders_6.dir/Calculator.cpp.obj
+build Ders_7.exe: CXX_EXECUTABLE_LINKER__Ders_7_Debug CMakeFiles/Ders_7.dir/main.cpp.obj CMakeFiles/Ders_7.dir/Entry.cpp.obj CMakeFiles/Ders_7.dir/PhoneList.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Ders_6.dir
+  OBJECT_DIR = CMakeFiles\Ders_7.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Ders_6.exe
-  TARGET_IMPLIB = libDers_6.dll.a
-  TARGET_PDB = Ders_6.exe.dbg
+  TARGET_FILE = Ders_7.exe
+  TARGET_IMPLIB = libDers_7.dll.a
+  TARGET_PDB = Ders_7.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\jabru\Desktop\Workspace\C++\Ders\Ders-6\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\jabru\Desktop\Workspace\C++\Ders\Ders-7\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -95,7 +101,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\jabru\Desktop\Workspace\C++\Ders\Ders-6\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\jabru\Desktop\Workspace\C++\Ders\Ders-6 -BC:\Users\jabru\Desktop\Workspace\C++\Ders\Ders-6\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\jabru\Desktop\Workspace\C++\Ders\Ders-7\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\jabru\Desktop\Workspace\C++\Ders\Ders-7 -BC:\Users\jabru\Desktop\Workspace\C++\Ders\Ders-7\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -105,7 +111,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Ders_6: phony Ders_6.exe
+build Ders_7: phony Ders_7.exe
 
 # =============================================================================
 # Folder targets.
@@ -113,9 +119,9 @@ build Ders_6: phony Ders_6.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/jabru/Desktop/Workspace/C++/Ders/Ders-6/cmake-build-debug
+# Folder: C:/Users/jabru/Desktop/Workspace/C++/Ders/Ders-7/cmake-build-debug
 
-build all: phony Ders_6.exe
+build all: phony Ders_7.exe
 
 # =============================================================================
 # Built-in targets
