@@ -55,13 +55,13 @@ build CMakeFiles/Ders_8.dir/main.cpp.obj: CXX_COMPILER__Ders_8_Debug C$:/Users/j
   OBJECT_DIR = CMakeFiles\Ders_8.dir
   OBJECT_FILE_DIR = CMakeFiles\Ders_8.dir
 
-build CMakeFiles/Ders_8.dir/NameArray.cpp.obj: CXX_COMPILER__Ders_8_Debug C$:/Users/jabru/Desktop/Workspace/C++/Ders/Ders-8/cmake-build-debug/NameArray.cpp || cmake_object_order_depends_target_Ders_8
+build CMakeFiles/Ders_8.dir/NameArray.cpp.obj: CXX_COMPILER__Ders_8_Debug C$:/Users/jabru/Desktop/Workspace/C++/Ders/Ders-8/NameArray.cpp || cmake_object_order_depends_target_Ders_8
   DEP_FILE = CMakeFiles\Ders_8.dir\NameArray.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Ders_8.dir
   OBJECT_FILE_DIR = CMakeFiles\Ders_8.dir
 
-build CMakeFiles/Ders_8.dir/Students.cpp.obj: CXX_COMPILER__Ders_8_Debug C$:/Users/jabru/Desktop/Workspace/C++/Ders/Ders-8/cmake-build-debug/Students.cpp || cmake_object_order_depends_target_Ders_8
+build CMakeFiles/Ders_8.dir/Students.cpp.obj: CXX_COMPILER__Ders_8_Debug C$:/Users/jabru/Desktop/Workspace/C++/Ders/Ders-8/Students.cpp || cmake_object_order_depends_target_Ders_8
   DEP_FILE = CMakeFiles\Ders_8.dir\Students.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Ders_8.dir

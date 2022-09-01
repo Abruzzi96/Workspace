@@ -17,14 +17,16 @@ bool NameArray::contains(const std::string& name) {
     return false;
 }
 
-void NameArray::delStudent(std::string name) {
-    for (const Students& currentStudent : this->studentList ) {
-        if (name == currentStudent.getName()){
-            this->studentList.remove(currentStudent);
-        }
-    }
-}
+//void NameArray::delStudent(std::string name) {
+//    for (const Students& currentStudent : this->studentList ) {
+//        if (name == currentStudent.getName()){
+//            this->studentList.remove(currentStudent);
+//        }
+//    }
+//}
 
 void NameArray::insert(std::string name, int number) {
-    // push_back
+    Students s1(name, number);
+
+    this->studentList.push_back(s1);
 }

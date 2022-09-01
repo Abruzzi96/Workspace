@@ -1,3 +1,8 @@
 # ninja log v5
 3	299	6835012705613890	CMakeFiles/Ders_8.dir/main.cpp.obj	124be57ef10738ee
 299	400	6835012706586757	Ders_8.exe	72eb48d86c878282
+1	315	6835624595868364	build.ninja	e05a104e4b1c638
+5	528	6835624601785403	CMakeFiles/Ders_8.dir/Students.cpp.obj	47a981f2d1e4a247
+7	533	6835624601835277	CMakeFiles/Ders_8.dir/NameArray.cpp.obj	5b8fe185caaa3ea9
+3	535	6835624601855211	CMakeFiles/Ders_8.dir/main.cpp.obj	124be57ef10738ee
+535	745	6835624603925540	Ders_8.exe	4088bf8c325fb2ca

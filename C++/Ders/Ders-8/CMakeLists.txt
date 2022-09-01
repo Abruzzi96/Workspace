@@ -3,4 +3,4 @@ project(Ders_8)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Ders_8 main.cpp cmake-build-debug/NameArray.cpp cmake-build-debug/NameArray.h cmake-build-debug/Students.cpp cmake-build-debug/Students.h)
+add_executable(Ders_8 main.cpp NameArray.cpp NameArray.h Students.cpp Students.h)
