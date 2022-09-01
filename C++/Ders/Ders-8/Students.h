@@ -7,6 +7,7 @@
 #include <iostream>
 
 class Students {
+private:
     std::string name;
     int number;
 public:
@@ -15,6 +16,10 @@ public:
     virtual ~Students();
 
     friend std::ostream &operator<<(std::ostream &os, const Students &students);
+
+    const std::string &getName() const;
+
+    int getNumber() const;
 };
 
 

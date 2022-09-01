@@ -16,7 +16,7 @@ public:
 
     void insert(std::string name, int number);
     void delStudent(std::string name);
-    bool contains(std::string name);
+    bool contains(const std::string& name);
 };
 
 
