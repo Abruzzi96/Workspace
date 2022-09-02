@@ -212,33 +212,32 @@ public class Main {
 //                System.out.println(i);
 //            }
 //        }
-        boolean isPrime = true;
-        int count = 0;
-
-        Scanner input = new Scanner(System.in);
-        System.out.print("Sayi giriniz : ");
-        int num = input.nextInt();
-        if (num < 2) {
-            isPrime = false;
-        }
-
-        for (int i = 2; i < num/2; i++) {
-            count++;
-            if(num % i == 0) {
-                isPrime = false;
-                break;
-            }
-        }
-        if(isPrime) {
-            System.out.println("Asaldir");
-            System.out.println("Count: " + count);
-        }else {
-            System.out.println("Asal degildir");
-            System.out.println("Count: " + count);
-        }
-
-
-
+//        boolean isPrime = true;
+//        int count = 0;
+//
+//        Scanner input = new Scanner(System.in);
+//        System.out.print("Sayi giriniz : ");
+//        int num = input.nextInt();
+//        if (num < 2) {
+//            isPrime = false;
+//        }
+//
+//        for (int i = 2; i < Math.sqrt(num); i++) {
+//            count++;
+//            if(num % i == 0) {
+//                isPrime = false;
+//                break;
+//            }
+//        }
+//
+//        if(isPrime) {
+//            System.out.println("Asaldir");
+//            System.out.println("Count: " + count);
+//        }
+//        else {
+//            System.out.println("Asal degildir");
+//            System.out.println("Count: " + count);
+//        }
 
     }
 }
