@@ -1,3 +1,5 @@
+package Mert.BinaryTree;
+
 public class Main {
     public static void main(String[] args) {
         BinaryTree binaryTree = new BinaryTree();
@@ -16,15 +18,16 @@ public class Main {
         binaryTree.root.right.left.right.left = new Node(34);
 
         System.out.println("Inorder Traversal: ");
-        binaryTree.inOrderTraversal(binaryTree.root);
+        binaryTree.inOrder(binaryTree.root);
         System.out.println();
 
         System.out.println("Preorder Traversal: ");
-        binaryTree.preOrderTraversal(binaryTree.root);
+        binaryTree.preOrder(binaryTree.root);
         System.out.println();
 
         System.out.println("Postorder Traversal: ");
-        binaryTree.postOrderTraversal(binaryTree.root);
+        binaryTree.postOrder(binaryTree.root);
+
 
     }
 }

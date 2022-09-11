@@ -1,3 +1,5 @@
+package Ayberk.BinaryTree;
+
 public class BinaryTree {
     Node root;
 
