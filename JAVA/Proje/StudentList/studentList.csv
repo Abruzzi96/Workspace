@@ -1,0 +1,10 @@
+id,first_name,last_name,date_of_birth,gender,city,state,zip,email,age
+111111,John,Doe,10/10/2000,M,Albuquerque,New Mexico,87112,jdoe@example.com,17
+111112,Jane,Smith,10/10/2022,F,New York,New York,10009,jsmith@example.com,18
+111113,Sarah,Thomas,10/8/2000,M,Pheonix,Arizona,85006,sthomas@example.com,17
+111114,Frank,Brown,10/4/2022,M,Pheonix,Arizona,85015,fbrown@example.com,19
+111115,Mike,Davis,10/4/2001,F,Seattle,Washington,98106,mdavis@example.com,18
+111116,Jennifer,Wilson,10/6/2004,M,Denver,Colorado,80012,jwilson@example.com,18
+111117,Jessica,Garcia,10/9/2021,F,Austin,Texas,78703,jgarcia@example.com,18
+111118,Fred,Clark,10/3/2010,F,Denver,Colorado,80033,fclark@example.com,19
+111119,Bob,Lopez,10/1/2014,F,Denver,Colorado,80122,blopez@example.com,18
