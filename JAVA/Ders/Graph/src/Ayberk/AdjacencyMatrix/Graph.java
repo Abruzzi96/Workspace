@@ -23,9 +23,9 @@ public class Graph {
         StringBuilder stringBuilder = new StringBuilder();
 
         for(int i = 0; i<numOfVertices; i++){
-            stringBuilder.append(i).append("| "); // ??
-            for(boolean j : adjMatrix[i]){  // ??
-                stringBuilder.append(j ? 1 : 0).append(" "); // ??
+            stringBuilder.append(i).append("| ");
+            for(boolean j : adjMatrix[i]){
+                stringBuilder.append(j ? 1 : 0).append(" ");
             }
             stringBuilder.append("\n");
         }

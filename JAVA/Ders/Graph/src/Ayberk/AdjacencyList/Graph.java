@@ -11,7 +11,7 @@ public class Graph {
         adjList = new ArrayList<>(numberOfElements);
 
         for(int i = 0; i<numberOfElements; i++){
-            adjList.add(new ArrayList<>()); // add kullanmaya gerek kalmadı ? yada mainden eklmeye, oto doldurdu ??
+            adjList.add(new ArrayList<>());
         }
     }
 
