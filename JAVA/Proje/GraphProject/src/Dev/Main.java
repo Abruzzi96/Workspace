@@ -6,23 +6,23 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        HashMap<Integer,City> cities = new HashMap<>();
+        HashMap<Integer, City> cities = new HashMap<>();
 
         File cityFile = new File(args[0]);
         try {
             Scanner scanner = new Scanner(cityFile);
-            while(scanner.hasNextLine()){
+            while (scanner.hasNextLine()) {
                 String[] readData = scanner.nextLine().split(",");
-                if(readData[0].charAt(0) == '0'){
+                if (readData[0].charAt(0) == '0') {
                     readData[0] = readData[0].substring(1);
                 }
-                City city = new City(Integer.parseInt(readData[0]),readData[1].toLowerCase());
+                City city = new City(Integer.parseInt(readData[0]), readData[1].toLowerCase());
 
-                for(int i = 2; i<=82; i++){
+                for (int i = 2; i <= 82; i++) {
                     city.addDistance(Integer.parseInt(readData[i]));
                 }
 
-                cities.put(city.getID(),city);
+                cities.put(city.getID(), city);
             }
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
@@ -31,25 +31,25 @@ public class Main {
         File adjacentFile = new File(args[1]);
         try {
             Scanner scanner = new Scanner(adjacentFile);
-            while(scanner.hasNextLine()){
+            while (scanner.hasNextLine()) {
                 String[] readLine = scanner.nextLine().toLowerCase().split(",");
                 int index = 1;
-                for(Map.Entry<Integer,City> currentCity : cities.entrySet()){
-                    if(currentCity.getValue().getName().equals(readLine[0])){ // equals 0 ne ?
-                        HashMap<Integer,City> currentCityAdjacency = new HashMap<>();
+                for (Map.Entry<Integer, City> currentCity : cities.entrySet()) {
+                    if (currentCity.getValue().getName().equals(readLine[0])) {
+                        HashMap<Integer, City> currentCityAdjacency = new HashMap<>();
                         boolean controller = true;
-                        while(controller){
-                            for(Map.Entry<Integer,City> target : cities.entrySet()){ // getter setter yeirne neden entry set ?
-                                if(target.getValue().getName().equals(readLine[index])){
-                                    currentCityAdjacency.put(target.getKey(),target.getValue());
+                        while (controller) {
+                            for (Map.Entry<Integer, City> target : cities.entrySet()) {
+                                if (target.getValue().getName().equals(readLine[index])) {
+                                    currentCityAdjacency.put(target.getKey(), target.getValue());
                                     index++;
-                                    if(index == readLine.length)
+                                    if (index == readLine.length)
                                         controller = false;
                                     break;
                                 }
                             }
                         }
-                        currentCity.getValue().setAdjacency(currentCityAdjacency); // burda naptık ?
+                        currentCity.getValue().setAdjacency(currentCityAdjacency);
                         break;
                     }
                 }
@@ -59,17 +59,24 @@ public class Main {
         }
 
         List<List<Node>> adj = new ArrayList<>();
-        for(int i = 0; i<81; i++){
+        for (int i = 0; i < 81; i++) {
             adj.add(new ArrayList<>());
         }
 
-        for(Map.Entry<Integer,City> entry : cities.entrySet()){
+        for (Map.Entry<Integer, City> entry : cities.entrySet()) {
             City currentCity = entry.getValue();
-            for(Map.Entry<Integer,City> adjEntry : currentCity.getAdjacency().entrySet()){
-                adj.get(currentCity.getID()-1).add(new Node(adjEntry.getValue().getID(),currentCity.getDistances().get(adjEntry.getValue().getID()-1)));
+            for (Map.Entry<Integer, City> adjEntry : currentCity.getAdjacency().entrySet()) {
+                adj.get(currentCity.getID() - 1).add(new Node(adjEntry.getValue().getID(), currentCity.getDistances().get(adjEntry.getValue().getID() - 1)));
             }
         }
 
+        Dijkstra dijkstra = new Dijkstra(81);
+        dijkstra.dijkstra(adj, 1);
 
+        System.out.println("The shortest path from node-1: ");
+
+        for(int i = 0; i<dijkstra.dist.length; i++){
+            System.out.println(cities.get(1).getName() + " ==> " + cities.get(i+1).getName() + " is " + dijkstra.dist[i]);
+        }
     }
 }
