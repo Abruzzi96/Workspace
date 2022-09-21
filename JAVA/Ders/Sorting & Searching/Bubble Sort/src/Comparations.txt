@@ -1,0 +1,7 @@
+Sorting 100 Elements: 0ms
+Sorting 1000 Elements: 0ms
+Sorting 10000 Elements: 2ms
+Sorting 100000 Elements: 10ms
+Sorting 1000000 Elements: 111ms
+Sorting 10000000 Elements: 1181ms
+Sorting 100000000 Elements: 17815ms
