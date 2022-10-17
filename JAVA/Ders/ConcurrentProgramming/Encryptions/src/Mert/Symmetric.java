@@ -8,7 +8,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 
 public class Symmetric {
-    public static String printBytes(byte[] bytes) {// byte bytes nedir
+    public static String printBytes(byte[] bytes) {
         StringBuilder depo = new StringBuilder();
         for (byte b : bytes) {
             depo.append(String.format("%02X:", b));
@@ -27,7 +27,7 @@ public class Symmetric {
         System.out.println("Pass: " + pass);
         System.out.println("Byte Pass : " + printBytes(plainText) + "\n");
 
-        KeyGenerator keyGen = KeyGenerator.getInstance("AES");//getINst ??
+        KeyGenerator keyGen = KeyGenerator.getInstance("AES");
         SecureRandom secure = new SecureRandom();
         keyGen.init(256,secure);
         SecretKey secretKey = keyGen.generateKey();
@@ -37,7 +37,7 @@ public class Symmetric {
         encText = cipher.doFinal(plainText);
         System.out.println("Encrypted Data : " + printBytes(encText));
         cipher.init(Cipher.DECRYPT_MODE, secretKey);
-        decText = cipher.doFinal(encText);//do finallar ne ?
+        decText = cipher.doFinal(encText);
         System.out.println("Decrypted Data : " + printBytes(decText));
         System.out.println("Decrypted Text : " + new String(decText));
     }
