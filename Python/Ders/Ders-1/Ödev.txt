@@ -1,0 +1,6 @@
+Input: hello world 
+Output: HellO WorlD
+
+Symmetric Enc // done
+
+Convert Java to Python
