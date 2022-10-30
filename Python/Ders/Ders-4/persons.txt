@@ -1,0 +1,12 @@
+Name:Ahmet
+Surname:Mehmet
+Age:25
+
+Name:Erol
+Surname:Guvercin
+Age:35
+
+Name:Guvercin
+Surname:Uvercinka
+Age:45
+
