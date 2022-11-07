@@ -9,7 +9,7 @@ using namespace std;
 //private:
 //    int value;
 //public:
-//    Count() : value(5){}
+//    Count() : value(5){}//
 //
 //    void operator ++() {
 //        value += 3;
@@ -195,9 +195,9 @@ int main()
 
     //cout << count1 << endl;
 
-    /*Student s1("Ayberk", "Saygý", 22, 1);
-    Student s2 = *new Student("Ayberk", "Saygý", 22, 1);
-    Student* s3 = new Student("Ayberk", "Saygý", 22, 1);
+    /*Student s1("Ayberk", "Saygï¿½", 22, 1);
+    Student s2 = *new Student("Ayberk", "Saygï¿½", 22, 1);
+    Student* s3 = new Student("Ayberk", "Saygï¿½", 22, 1);
 
     s2.print();
     s3->print();*/
